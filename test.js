@@ -1,22 +1,22 @@
 var marks = prompt("Enter your marks :");
 
 if(marks >= 80)
-    document.write("A+");
+    document.write("Your achived grade is A+");
 
 else if(marks >= 70)
-    document.write("A-");
+    document.write("Your achived grade is A-");
 
 else if(marks >= 60)
-    document.write("B");
+    document.write("Your achived grade is B");
 
 else if(marks >= 50)
-    document.write("B");
+    document.write("Your achived grade is B");
 
 else if(marks >= 40)
-    document.write("C");
+    document.write("Your achived grade is C");
 
 else if(marks >= 33)
-    document.write("D");
+    document.write("Your achived grade is D");
 
 else
-    document.write("Fail");
+    document.write("You are Fail");
